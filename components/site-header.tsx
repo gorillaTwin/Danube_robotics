@@ -13,8 +13,8 @@ export function SiteHeader() {
   return (
     <>
       <header className="sticky top-0 z-50 w-full border-b bg-blue-600">
-        <div className="container flex h-16 items-center">
-          <Link href="/" className="flex items-center space-x-2">
+        <div className="container flex h-16 items-center px-4 md:px-6">
+          <Link href="/" className="flex items-center space-x-2 pl-0 md:pl-4">
             <span className="text-2xl font-bold text-white">DANUBE ROBOTICS</span>
           </Link>
 
@@ -132,5 +132,4 @@ export function SiteHeader() {
     </>
   )
 }
-
 

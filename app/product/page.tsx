@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useLanguage } from "@/contexts/LanguageContext"
 
 export default function ProductPage() {
@@ -7,14 +7,12 @@ export default function ProductPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
-        <div className="w-full bg-gray-100 px-56 py-4">
-          <h1 className="text-4xl font-bold">{t('product.title')}</h1>
+        <div className="w-full bg-gray-100 px-4 md:px-56 py-4">
+          <h1 className="text-4xl font-bold">{t("product.title")}</h1>
         </div>
         <div className="container mx-auto px-6 py-8 max-w-5xl">
           <div className="space-y-6">
-            <p className="text-lg leading-relaxed">
-              {t('product.description')}
-            </p>
+            <p className="text-lg leading-relaxed">{t("product.description")}</p>
 
             {/* Image Section */}
             <div className="my-12">
@@ -25,17 +23,14 @@ export default function ProductPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h2 className="mt-4 text-xl font-semibold">{t('product.image.caption')}</h2>
+              <h2 className="mt-4 text-xl font-semibold">{t("product.image.caption")}</h2>
             </div>
 
-            <p className="text-lg leading-relaxed">
-              {t('product.additional')}
-            </p>
+            <p className="text-lg leading-relaxed">{t("product.additional")}</p>
           </div>
         </div>
       </main>
     </div>
   )
 }
-
 

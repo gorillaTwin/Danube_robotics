@@ -22,7 +22,7 @@ export function SiteFooter() {
             <h3 className="text-xl font-semibold mb-4 text-white">Help & Support</h3>
             <div className="space-y-2">
               <p><Link href="/faq" className="text-gray-300 hover:text-white">FAQ</Link></p>
-              <p><Link href="/feedback" className="text-gray-300 hover:text-white">Testimonials and Case Studies</Link></p>
+              <p><Link href="/feedback" className="text-gray-300 hover:text-white">Case Studies</Link></p>
               <p><Link href="/specifications" className="text-gray-300 hover:text-white">Detailed Product Specifications</Link></p>
               <p><Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link></p>
               <p><Link href="/blog" className="text-gray-300 hover:text-white">Blog</Link></p>
@@ -59,5 +59,4 @@ export function SiteFooter() {
     </footer>
   )
 }
-
 
