@@ -2,77 +2,6 @@ import Link from "next/link"
 
 const blogPosts = [
   {
-    id: 16,
-    title: "MILI Business Plan: From MVP to Market Leadership",
-    date: "2024-02-25",
-    excerpt:
-      "A comprehensive business plan outlining MILI's development roadmap, investment strategy, and go-to-market approach, including MVP specifications and financial projections.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 15,
-    title: "MILI's Business Model Canvas: Mapping Our Path to Success",
-    date: "2024-02-24",
-    excerpt:
-      "Explore MILI's business model using the Business Model Canvas framework, covering key aspects such as value propositions, customer segments, revenue streams, and more.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 14,
-    title: "Selecting Off-the-Shelf Parking Sensors for MILI: A Comprehensive Guide",
-    date: "2024-02-23",
-    excerpt:
-      "Explore the process of choosing the right parking sensors to enhance MILI's obstacle detection capabilities, including a comparison of different sensor types and a recommended configuration.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 13,
-    title: "Optimizing MILI's Vision: Selecting the Perfect Camera Setup for Jetson Nano 4GB",
-    date: "2024-02-22",
-    excerpt:
-      "A detailed analysis of choosing the right RGB-IR cameras for MILI's front SLAM and side/rear car detection, optimized for the Jetson Nano 4GB.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 12,
-    title: "Seeing in the Dark: RGB-IR Cameras for MILI's All-Condition Navigation",
-    date: "2024-02-21",
-    excerpt:
-      "Exploring the integration of RGB-IR cameras to enhance MILI's navigation capabilities in low-light conditions.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 11,
-    title: "Dual Jetson Nano Setup for MILI: Balancing Performance and Efficiency",
-    date: "2024-02-20",
-    excerpt:
-      "Exploring an innovative dual NVIDIA Jetson Nano configuration for MILI, optimizing performance for both safety and navigation tasks.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 10,
-    title: "Optimizing MILI's Dimensions: A Design Analysis for Battery Integration",
-    date: "2024-02-19",
-    excerpt:
-      "A detailed analysis of MILI's optimal dimensions, focusing on efficient battery placement and overall stability.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 9,
-    title: "Selecting the Right Aluminum Profile for MILI: A Load-Bearing Analysis",
-    date: "2024-02-18",
-    excerpt:
-      "Learn how to choose the appropriate aluminum profiles for MILI's frame to safely handle loads up to 100kg while maintaining structural integrity.",
-    author: "Marko Pavlović",
-  },
-  {
-    id: 8,
-    title: "Building MILI: A Complete Guide to Prototype Assembly Tools and Components",
-    date: "2024-02-17",
-    excerpt: "A comprehensive guide to the tools, components, and assembly process needed to build a MILI prototype.",
-    author: "Marko Pavlović",
-  },
-  {
     id: 7,
     title: "Building MILI's World: 3D Reconstruction with Multi-Camera Vision",
     date: "2024-02-16",
@@ -125,7 +54,7 @@ export default function BlogPage() {
             {blogPosts.map((post) => (
               <article key={post.id} className="bg-white shadow-md rounded-lg p-6">
                 <h2 className="text-2xl font-semibold mb-2">
-                  <Link href={`/blog/${post.id}/${post.id}`} className="text-blue-600 hover:text-blue-800">
+                  <Link href={`/blog/${post.id}/${post.id}`} className="text-[#184c7c] hover:text-[#2b6ca8]">
                     {post.title}
                   </Link>
                 </h2>
@@ -136,7 +65,7 @@ export default function BlogPage() {
                 <p className="text-gray-700">{post.excerpt}</p>
                 <Link
                   href={`/blog/${post.id}/${post.id}`}
-                  className="inline-block mt-4 text-blue-600 hover:text-blue-800"
+                  className="inline-block mt-4 text-[#184c7c] hover:text-[#2b6ca8]"
                 >
                   Read more →
                 </Link>
