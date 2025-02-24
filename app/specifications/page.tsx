@@ -4,17 +4,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const specifications = [
   {
     name: "MILI",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/MILI.jpeg?height=800&width=400",
     specs: ["Power: 10KW", "Battery capacity: 15kWh", "Vehicle: Car on public parking"],
   },
   {
     name: "KILO",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/KILO.jpeg?height=800&width=400",
     specs: ["Power: 20KW", "Battery capacity: 30kWh", "Vehicle: Car on business parking lot"],
   },
   {
     name: "MICRO",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/MILI.jpeg?height=800&width=400",
     specs: ["Power: 2KW", "Battery capacity: 5kWh", "Vehicle: E-Bikes public parking"],
   },
 ];
