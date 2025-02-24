@@ -40,7 +40,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
       "home.title": "MILI",
       "home.description":
         "Our main product is MILI, an autonomous robot designed for charging electric vehicles in parking lots. The robot is equipped with advanced sensors for navigation and collision avoidance, along with a built-in charging system and battery storage.",
-      "home.image.caption": "EVAR Robot in Action",
+      "home.image.caption": "EVAR, robot that is our inspiration, in Action",
       "home.additional":
         "MILI can operate 24/7, moving between parked vehicles to provide charging services on demand. Its compact design allows it to navigate tight spaces, while its robust construction ensures reliability in various weather conditions.",
       "about.title": "About us",
