@@ -12,7 +12,7 @@ export function SiteHeader() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b bg-blue-600">
+      <header className="sticky top-0 z-50 w-full border-b bg-[#184c7c]">
         <div className="container flex h-16 items-center px-4 md:px-6">
           <Link href="/" className="flex items-center space-x-2 pl-0 md:pl-4">
             <span className="text-2xl font-bold text-white">DANUBE ROBOTICS</span>
@@ -43,14 +43,14 @@ export function SiteHeader() {
           <div className="hidden md:flex items-center space-x-2">
             <Button
               variant="ghost"
-              className={`text-white hover:text-white hover:bg-blue-500 ${language === "en" ? "bg-blue-500" : ""}`}
+              className={`text-white hover:text-white hover:bg-[#184c7c] ${language === "en" ? "bg-[#184c7c]" : ""}`}
               onClick={() => setLanguage("en")}
             >
               EN
             </Button>
             <Button
               variant="ghost"
-              className={`text-white hover:text-white hover:bg-blue-500 ${language === "srb" ? "bg-blue-500" : ""}`}
+              className={`text-white hover:text-white hover:bg-[#184c7c] ${language === "srb" ? "bg-[#184c7c]" : ""}`}
               onClick={() => setLanguage("srb")}
             >
               SRB
@@ -65,46 +65,46 @@ export function SiteHeader() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-blue-600 border-t border-blue-500">
+          <div className="md:hidden bg-[#184c7c] border-t border-blue-500">
             <nav className="flex flex-col py-4">
               <Link
                 href="/about"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("about")}
               </Link>
               <Link
                 href="/product"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("product")}
               </Link>
               <Link
                 href="/software"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("software")}
               </Link>
               <Link
                 href="/contact"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("contact")}
               </Link>
               <Link
                 href="/blog"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </Link>
               <Link
                 href="/specifications"
-                className="text-white hover:bg-blue-500 px-6 py-3"
+                className="text-white hover:bg-[#184c7c] px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("specifications")}
@@ -112,14 +112,14 @@ export function SiteHeader() {
               <div className="flex px-6 py-3 space-x-2">
                 <Button
                   variant="ghost"
-                  className={`text-white hover:text-white hover:bg-blue-500 ${language === "en" ? "bg-blue-500" : ""}`}
+                  className={`text-white hover:text-white hover:bg-[#184c7c] ${language === "en" ? "bg-[#184c7c]" : ""}`}
                   onClick={() => setLanguage("en")}
                 >
                   EN
                 </Button>
                 <Button
                   variant="ghost"
-                  className={`text-white hover:text-white hover:bg-blue-500 ${language === "srb" ? "bg-blue-500" : ""}`}
+                  className={`text-white hover:text-white hover:bg-[#184c7c] ${language === "srb" ? "bg-[#184c7c]" : ""}`}
                   onClick={() => setLanguage("srb")}
                 >
                   SRB
