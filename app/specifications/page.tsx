@@ -39,9 +39,9 @@ export default function SpecificationsPage() {
                       <Image
                         src={spec.image || "/placeholder.svg"}
                         alt={`${spec.name} robot`}
-                        width={300}
-                        height={600}
-                        className="rounded-lg w-full h-[200px] object-cover"
+                        width={400}
+                        height={400}
+                        className="rounded-lg w-full h-auto object-contain"
                       />
                     </div>
                     <div className="md:w-1/2 mt-4 md:mt-0 md:pl-6">
@@ -61,4 +61,3 @@ export default function SpecificationsPage() {
     </div>
   );
 }
-
