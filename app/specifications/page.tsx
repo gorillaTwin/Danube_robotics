@@ -40,7 +40,7 @@ export default function SpecificationsPage() {
                         src={spec.image || "/placeholder.svg"}
                         alt={`${spec.name} robot`}
                         width={300}
-                        height={200}
+                        height={600}
                         className="rounded-lg w-full h-[200px] object-cover"
                       />
                     </div>
