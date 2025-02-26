@@ -100,7 +100,7 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     },
     srb: {
       about: "O nama",
-      product: "Ppoizvod",
+      product: "Proizvod",
       software: "Softver",
       contact: "Kontakt",
       "home.title": "MILI",
